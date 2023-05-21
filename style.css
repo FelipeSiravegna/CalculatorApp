@@ -17,22 +17,24 @@ body {
 
 .container {
   position: relative;
-  max-width: 300px;
+  max-width: 330px;
   width: 100%;
   border-radius: 12px;
   padding: 10px 20px 20px;
   background: #fff;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: -16px 20px 31px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -16px 20px 31px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: -16px 20px 31px -8px rgba(0, 0, 0, 0.75);
 }
 
 .display {
-  height: 80px;
+  height: 90px;
   width: 100%;
   outline: none;
   border: none;
   text-align: right;
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 30px;
   color: #000e1a;
   pointer-events: none;
 }
@@ -44,15 +46,21 @@ body {
 }
 
 .buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
   padding: 12px;
   border-radius: 6px;
   border: none;
   font-size: 20px;
   cursor: pointer;
-  background-color: #eee;
+  background-color: #3a6ea5;
+  color: white;
 }
 
 button.operator {
   background-color: #ef8354;
-  color: white
+  color: white;
 }
