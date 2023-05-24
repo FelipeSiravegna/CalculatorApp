@@ -65,3 +65,18 @@ button.operator {
   background-color: #ef8354;
   color: white;
 }
+
+.contactLinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+.contactLinks img{
+  width: 40px;
+  aspect-ratio: 1;
+  cursor: pointer;
+}
