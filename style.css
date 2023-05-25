@@ -72,11 +72,21 @@ button.operator {
   justify-content: center;
   align-items: center;
   margin-top: 35px;
-  gap: 30px;
+  gap: 70px;
 }
 
 .contactLinks img{
   width: 40px;
   aspect-ratio: 1;
   cursor: pointer;
+}
+
+.contactLinks img:hover{
+  transform: scale(1.125);
+  transition: all 0.5s;
+}
+
+.contactLinks img:not(:hover){
+  transform: scale(1);
+  transition: all 0.5s;
 }
